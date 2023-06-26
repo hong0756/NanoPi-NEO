@@ -56,7 +56,7 @@ std::vector<unsigned char>	ExtractCoverArt( const char * pszFilePath )
 
 		printf(
 			"FileType: "
-			"APE:%p, "	"ASP:%p, "	"FLAC:%p, "	"wav:%p, "	"MP4:%p, "	"MPC:%p, "	"MPEG:%p, "	"Ogg:%p, "	"RIFF:%p, "	"TrueAudio:%p, "	"WavPack:%p, "	"\n",
+			"APE:%p, "	"ASP:%p, "	"FLAC:%p, "	"Wav:%p, "	"MP4:%p, "	"MPC:%p, "	"MPEG:%p, "	"Ogg:%p, "	"RIFF:%p, "	"TrueAudio:%p, "	"WavPack:%p, "	"\n",
 			piFileAPE,	piFileASF,	piFileFLAC,	piFilewav,	piFileMP4,	piFileMPC,	piFileMPEG,	piFileOgg,	piFileRIFF,	piFileTA,			piFileWav );
 
 		printf( "title   : %s\n", piTag->title().toCString(true) );
