@@ -43,7 +43,8 @@ Volumio(Debian):
 #include <map>
 #include <string>
 #include <ctime>
-#include <opencv2/opencv.hpp>
+//#include <opencv2/opencv.hpp>
+#include <opencv4/opencv2/opencv.hpp>
 
 #include "common/perf_log.h"
 #include "common/img_font.h"
